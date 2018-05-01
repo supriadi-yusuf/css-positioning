@@ -17,6 +17,7 @@ body{
 
 .blue{
     background: blue;
+    float: right;
 }
 
 .red{
