@@ -14,3 +14,7 @@ body{
   display: block;
   clear: both;
 }
+
+img{
+  margin: 10px;
+}
