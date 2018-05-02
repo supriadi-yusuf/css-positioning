@@ -1,3 +1,4 @@
+
 body{
   background: #eee;
 }
@@ -22,11 +23,12 @@ body{
 
 .red{
     background: red;
-    float: left;
+    float: right;
 }
 
 .green{
     background: green;
+    float: right;
 }
 
 .box{
