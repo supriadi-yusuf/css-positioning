@@ -16,22 +16,17 @@ body{
   clear: both;
 }
 
-.blue{
-    background: blue;
-    float: right;
+.service h2, .service p{
+  color: #999;
+  margin: 10px 0;
+  text-align: center;
 }
 
-.red{
-    background: red;
-    float: right;
-}
-
-.green{
-    background: green;
-    float: right;
-}
-
-.box{
-  height: 100px;
-  width: 100px;
+.service{
+  float: left;
+  background: #eee;
+  width: 29.33%;
+  margin: 1%;
+  padding: 1%;
+  height: 148px;
 }
