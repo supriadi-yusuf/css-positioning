@@ -16,6 +16,12 @@ body{
   clear: both;
 }
 
+.services:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .service h2, .service p{
   color: #999;
   margin: 10px 0;
