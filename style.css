@@ -34,12 +34,20 @@ body{
   width: 29.33%;
   margin: 1%;
   padding: 1%;
-  height: 148px;
+  height: 140px;
 }
 
 .content{
   padding: 10px;
-  background: #ccc;
+  //background: #ccc;
   clear: both;
-  margin-top: 50px;
+  margin-top: 20px 1%;
+}
+
+section, aside{
+  float: left;
+  width: 46%;
+  padding: 1%;
+  margin: 1%;
+  background: #f2f2f2;
 }
