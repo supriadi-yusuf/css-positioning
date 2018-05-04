@@ -22,6 +22,12 @@ body{
   clear: both;
 }
 
+.columns:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .service h2, .service p{
   color: #999;
   margin: 10px 0;
@@ -89,4 +95,27 @@ section, aside{
   width: 100%;
   text-align: center;
   color: #fff;
+}
+
+nav {
+  background: #333;
+  //padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+nav ul:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav li{
+  list-style-type: none;
+  margin: 0 10px;
+  color: #fff;
+  float: right;
+
 }
